@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
-import Product from './components/Product';
+//import Product from './components/Product';
 import { storeProducts, detailProduct } from './data'
 
 const ProductContext = React.createContext();
 //Provider--> provide all the information for application
-//Consumper---> 
-
 
 
 class ProductProvider extends Component {
